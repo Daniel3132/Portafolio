@@ -1,0 +1,22 @@
+export const LanguagesArray = [
+    {
+        name:'ReactJS',
+        url:'https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653345626/languages/react-logo_lwamt1.png'
+    },
+    {
+        name:'JavaScript',
+        url:'https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653345626/languages/JavaScript-logo-PNG_j3kxzx.png'
+    },
+    {
+        name:'HTML',
+        url:'https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653345626/languages/html_v79yf7.png'
+    },
+    {
+        name:'CSS',
+        url:'https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653345626/languages/CSS-Logo-PNG_rmybqe.png'
+    },
+    {
+        name:'Sass',
+        url:'https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653345626/languages/Sass_logo_PNG1_sjkiu9.png'
+    },
+]

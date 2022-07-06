@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;700&display=swap');
+
+$fontColor: white;
+$BgColor: #2b2b2b;
+$color1: #5ee140;
+$color2: rgb(255, 20, 20);
+
+/////////////////////////////////////////
+* {
+    margin: 0;
+}
+
+body {
+    /*     &.light {
+        $fontColor: green;
+        $BgColor: rgb(255, 255, 255);
+        $color1: rgb(255, 0, 0);
+    }
+
+    &.dark {
+        $fontColor: white;
+        $BgColor: rgb(43, 43, 43);
+        $color1: rgb(94, 225, 64);
+    } */
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: $BgColor;
+    color: $fontColor;
+    text-align: center;
+    font-size: 15px;
+}
+
+div,
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    box-shadow: 1px 1px 0 2px red;
+    margin: 0 auto;
+}
+
+section {
+    padding: 1rem 0;
+    width: 100vw;
+}
+
+button,
+img,
+#navbar h4 {
+    cursor: pointer;
+}
+
+#intro {
+    flex-direction: row;
+    .imgProfile{
+        width: 5rem;
+        margin: 1rem;
+    }
+}
+
+#content {
+    height: 100%;
+}
+
+#navbar {
+    div {
+        border: 1px solid white;
+        border-left: none;
+        border-right: none;
+        padding: 2rem 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        h4 {
+            border: 1px solid $color1;
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    .active {
+        transform: scale(1.2);
+        color: $color2;
+    }
+}
+
+#languages {
+    .cardCont {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .langCont {
+            width: 10rem;
+            height: 10rem;
+
+            img {
+                width: 7rem;
+                height: auto;
+            }
+        }
+    }
+}
+
+#contact {
+    .redes {
+        background-color: white;
+        flex-direction: row;
+    }
+
+    .mediaImg {
+        width: 3rem;
+        height: 3rem;
+        background-color: white;
+        border-radius: 100%;
+
+        &:hover {
+            background-color: $color1;
+        }
+    }
+}
