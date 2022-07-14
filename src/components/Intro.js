@@ -17,11 +17,17 @@ const Intro = () => {
 
     return (
         <section id='intro'>
-            <div>
-                <h1>Daniel Correa</h1>
+            <h1>Daniel Correa - Desarrollador Frontend</h1>
+            <div className='introText'>
                 <img className='imgProfile' src='https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653346546/samples/yo/WhatsApp_Image_2020-11-07_at_17.29.56-modified_ljvdzi.png' alt="" />
-                <h3>Desarrollador Frontend</h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Asperiores tempore, porro molestias nam quae, tempora dicta recusandae
+                    reprehenderit quia id numquam repudiandae facilis, sequi sunt incidunt cumque?
+                    Perspiciatis, praesentium distinctio.</p>
             </div>
+
+
             {/* <button onClick={() => changeTheme()}>O</button> */}
         </section>
     )

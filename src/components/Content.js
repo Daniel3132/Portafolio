@@ -9,12 +9,14 @@ const Content = () => {
     return (
         <section id='content'>
             <NavBar content={content} setContent={setContent} />
-            {
-                content === 'lang' ? <Languages />
-                    : content === 'projects' ? <Projects />
-                        : content === 'contact' ? <Contact />
-                            : ''
-            }
+            <div className='contentCont'>
+                {
+                    content === 'lang' ? <Languages />
+                        : content === 'projects' ? <Projects />
+                            : content === 'contact' ? <Contact />
+                                : ''
+                }
+            </div>
         </section>
     )
 }
