@@ -3,9 +3,10 @@
 $fontColor: white;
 $fontColor2: black;
 $BgColor: #0D0D56;
-$color1: #ffffff5e;
+$color1: #ffffffab;
 $color2: #C7003C;
 $color3: #FFB488;
+$color4: #ff4141d0;
 
 * {
     margin: 0;
@@ -45,11 +46,28 @@ img,
     cursor: pointer;
 }
 
+*::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: $fontColor
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $BgColor;
+    border-radius: 10px;
+    border: 3px solid $fontColor;
+  }
+
 #intro {
-    width: 85%;
+    width: 50%;
     align-items: flex-start;
     text-align: start;
     margin: 1rem 0 0 1rem;
+    padding: 1.5rem;
+    background-color: $color4;
+    border-radius: 1rem;
 
     .introText {
         margin: 0;
@@ -67,7 +85,8 @@ img,
 #content {
     .contentCont {
         border-radius: 20px;
-        margin-top: 2rem;
+        margin: 2rem 0;
+        padding: 1rem 2rem;
         background-color: $color1;
         width: 80%;
         box-shadow: 2px 2px 2px 2px rgb(45, 45, 45);
@@ -92,6 +111,7 @@ img,
     .active {
         transform: scale(1.2);
         color: $color2;
+        box-shadow: 2px 5px 0 0 rgba(0, 0, 0, 0.507) ;
     }
 }
 
@@ -102,16 +122,18 @@ img,
     .cardCont {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1rem;
+        justify-content: space-between;
+        gap: 3rem;
         width: 100%;
 
         .langCont {
-            width: 10rem;
-            height: 10rem;
-
+            min-width: 8rem;
+            width: 8rem;
+            min-height: 10rem;
             img {
-                width: 7rem;
-                height: auto;
+                width: auto;
+                height: 8rem;
+                margin-bottom: 1rem;
             }
         }
     }
@@ -122,22 +144,30 @@ img,
 
     .projectsCont {
         flex-direction: row;
+        gap: 3rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .pCont {
-        background-color: #000000a1;
+        background-color: #000000ba;
         width: 20rem;
         min-height: fit-content;
         padding: 1rem 0;
+        margin: 1rem ;
         border-radius: 10px;
 
         .content {
             height: 10rem;
             margin: 1rem 0;
             background-color: black;
+            height: fit-content;
             img {
-
                 width: 100%;
+            }
+            p{
+                margin:1rem;
+                text-align: justify;
             }
             &:hover{
                 cursor: pointer;
@@ -154,7 +184,7 @@ img,
 
                 &:hover {
                     text-decoration: underline;
-                    color: red;
+                    color: $color2;
                 }
             }
         }
@@ -163,6 +193,7 @@ img,
 }
 
 #contactSection {
+    color: black;
     width: 100%;
 
     .redes {
@@ -175,9 +206,10 @@ img,
         width: 8rem;
         height: 8rem;
         border-radius: 100%;
-
+        margin-top: 1rem;
         &:hover {
-            background-color: $color3;
+            background-color: $color4;
+            transform: scale(1.1);
         }
     }
 }

@@ -21,10 +21,7 @@ const Intro = () => {
             <div className='introText'>
                 <img className='imgProfile' src='https://res.cloudinary.com/dcyn2bjb9/image/upload/v1653346546/samples/yo/WhatsApp_Image_2020-11-07_at_17.29.56-modified_ljvdzi.png' alt="" />
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Asperiores tempore, porro molestias nam quae, tempora dicta recusandae
-                    reprehenderit quia id numquam repudiandae facilis, sequi sunt incidunt cumque?
-                    Perspiciatis, praesentium distinctio.</p>
+                <p>Hola, soy un apasionado de la tecnología, la música y los videojuegos, estudio programación y hago proyectos como desarrollador Frontend con: Javascript, HTML y CSS, React - Redux...</p>
             </div>
 
 

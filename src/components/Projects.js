@@ -28,7 +28,7 @@ const Projects = () => {
 						</div>
 						<div>
 							<a href={p.repositorie} target="_blank" rel='noreferrer'>GitHub</a>|
-							<a href={p.deployment} target="_blank" rel='noreferrer'>URL</a>
+							<a href={p.deployment} target="_blank" rel='noreferrer'>Demo</a>
 						</div>
 					</div>
 				)}
