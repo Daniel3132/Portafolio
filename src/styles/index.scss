@@ -31,7 +31,6 @@ section {
     align-items: center;
     justify-content: center;
     margin: 5px 0;
-    // box-shadow: 1px 1px 0 2px red;
     margin: 0 auto;
 }
 
@@ -70,7 +69,7 @@ img,
     border-radius: 1rem;
 
     .introText {
-        margin: 0;
+        margin: 1rem 0;
         align-self: flex-start;
         width: 80%;
         flex-direction: row;
@@ -78,8 +77,10 @@ img,
 
     .imgProfile {
         width: 5rem;
-        margin: 1rem;
+        height: 5rem;
+        margin: auto 1.5rem;
     }
+
 }
 
 #content {
@@ -135,6 +136,9 @@ img,
                 height: 8rem;
                 margin-bottom: 1rem;
             }
+            &:hover{
+                transform: scale(1.2);
+            }
         }
     }
 }
@@ -188,6 +192,10 @@ img,
                 }
             }
         }
+        &:hover{
+            transform: scale(1.05);
+            box-shadow: 3px 3px 2px 0px $color4;
+        }
 
     }
 }
@@ -195,21 +203,28 @@ img,
 #contactSection {
     color: black;
     width: 100%;
-
+    
     .redes {
+        flex-wrap: wrap;
+        gap: 2rem;
         width: 80%;
         flex-direction: row;
         justify-content: space-evenly;
     }
-
-    .mediaImg {
-        width: 8rem;
-        height: 8rem;
-        border-radius: 100%;
-        margin-top: 1rem;
-        &:hover {
-            background-color: $color4;
-            transform: scale(1.1);
+    
+    div{
+        width: fit-content;
+        .mediaImg {
+            z-index: index;
+            width: 8rem;
+            height: 8rem;
+            border-radius: 100%;
+            margin-top: 1rem;
+            background: rgb(132, 132, 132);
+            &:hover {
+                background: $color4;
+                transform: scale(1.1);
+            }
         }
     }
 }
