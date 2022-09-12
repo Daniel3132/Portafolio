@@ -1,0 +1,27 @@
+#intro {
+    width: 50%;
+    align-items: flex-start;
+    text-align: start;
+    margin: 1rem 0 0 1rem;
+    padding: 1.5rem;
+    background-color: $color4;
+    border-radius: 1rem;
+    animation-duration: 1s;
+    animation-name: slidein;
+    .introText {
+        margin: 1rem 0;
+        align-self: flex-start;
+        width: 80%;
+        flex-direction: row;
+    }
+    .imgProfile {
+        width: 5rem;
+        height: 5rem;
+        margin: auto 1.5rem;
+    }
+    @keyframes slidein {
+        from {
+            width: 70%
+        }
+    }
+}

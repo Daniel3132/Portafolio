@@ -1,0 +1,20 @@
+#navbar {
+    div {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        color: $color2;
+        h4 {
+            background-color: $color3;
+            border: none;
+            border-radius: 1000px;
+            padding: 0.5rem 1rem;
+        }
+    }
+    .active {
+        transform: scale(1.2);
+        color: $color2;
+        box-shadow: 2px 5px 0 0 rgba(0, 0, 0, 0.507);
+        transition-duration: 0.6s;
+    }
+}

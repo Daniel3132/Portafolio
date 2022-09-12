@@ -1,0 +1,35 @@
+#contactSection {
+    color: black;
+    width: 100%;
+    .redes {
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    div {
+        animation-duration: 1s;
+        animation-name: opacity;
+        width: fit-content;
+        .mediaImg {
+            z-index: index;
+            width: 8rem;
+            height: 8rem;
+            border-radius: 100%;
+            margin-top: 1rem;
+            background: rgb(132, 132, 132);
+            transition-duration: 0.2s;
+            &:hover {
+                background: $color4;
+                transform: scale(1.1);
+            }
+        }
+        @keyframes opacity {
+            0%{
+                opacity: 0;
+                padding-top: 1rem;
+            }
+        }
+    }
+}
