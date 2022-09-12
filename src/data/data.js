@@ -126,7 +126,7 @@ export const contactArray = [
     },
     {
         name: "Whastapp",
-        url: `https://wa.me/3006300557?text=${mensajeWp}`,
+        url: `https://wa.me/+573006300557?text=${mensajeWp}`,
         img: wp
     }
 ]
