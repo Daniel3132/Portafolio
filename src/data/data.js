@@ -47,10 +47,10 @@ export const LanguagesArray = [
         name:'NPM',
         url:'https://res.cloudinary.com/dcyn2bjb9/image/upload/v1658507498/languages/npm-logo_jhvtmw.png'
     },
-    {
+    /* {
         name:"Laravel",
         url:"https://res.cloudinary.com/dcyn2bjb9/image/upload/v1658595156/languages/985px-Laravel.svg_pvqs7m.png"
-    }
+    } */
 ]
 
 export const projectsArray = [
@@ -75,13 +75,13 @@ export const projectsArray = [
         repositorie: "https://github.com/Daniel3132/bookmark",
         deployment: "https://bookmark-mu.vercel.app",
     },
-    /* {
+    {
         name: "Daily Bits",
         description: "An application where you can do a JavaScript test and your stats will be save on a server deployed on heroku, login auth with google and facebok by firebase, ReactJs, React-router-dom",
         photo: "https://res.cloudinary.com/dcyn2bjb9/image/upload/v1657849987/my%20projects/dailyBits_un5com.png",
         repositorie: "https://github.com/Daniel3132/daily-bits",
         deployment: "https://daily-bits-daniel3132.vercel.app",
-    }, */
+    },
     {
         name: "Tiendita",
         description: "JS Vanilla ●CSS ●Heroku ● Request consumption with fetch or axios ● Perform product CRUD (Create, List, Modify, Delete) ● The main page loads the data of the products with images ● If a product is selected, the information detail of the same is displayed ● CRUD in the shopping cart ● Responsive Design",
