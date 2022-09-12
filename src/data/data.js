@@ -1,3 +1,6 @@
+import wp from '../assets/wp.png'
+import { mensajeWp } from './mensajeWp';
+
 export const LanguagesArray = [
     {
         name:'ReactJS',
@@ -103,7 +106,7 @@ export const projectsArray = [
         repositorie: "https://github.com/Daniel3132/Netnet",
         deployment: "https://netnet.vercel.app/",
     },
-]
+];
 
 export const contactArray = [
     {
@@ -120,5 +123,10 @@ export const contactArray = [
         name: "GitHub",
         url: "https://github.com/Daniel3132",
         img: "https://res.cloudinary.com/dcyn2bjb9/image/upload/v1652120654/samples/redes/img_326384_ep8nnv.png"
+    },
+    {
+        name: "Whastapp",
+        url: `https://wa.me/3006300557?text=${mensajeWp}`,
+        img: wp
     }
 ]
