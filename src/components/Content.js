@@ -14,7 +14,7 @@ const Content = () => {
                     content === 'lang' ? <Languages />
                         : content === 'projects' ? <Projects />
                             : content === 'contact' ? <Contact />
-                                : ''
+                                : null
                 }
             </div>
         </section>

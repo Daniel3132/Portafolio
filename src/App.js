@@ -5,8 +5,8 @@ import Intro from './components/Intro'
 const App = () => {
 	return (
 		<>
-		<Intro/>
-		<Content/>
+			<Intro />
+			<Content />
 		</>
 	)
 }

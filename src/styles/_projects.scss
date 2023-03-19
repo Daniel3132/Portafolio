@@ -15,10 +15,10 @@
         border-radius: 10px;
         transition-duration: .5s;
         .content {
-            height: 10rem;
+            height: fit-content;
+            min-height: 10rem;
             margin: 1rem 0;
             background-color: black;
-            height: fit-content;
             animation-duration: 0.7s;
             transition-duration: 1s;
             cursor: pointer;
