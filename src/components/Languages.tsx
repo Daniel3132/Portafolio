@@ -1,4 +1,3 @@
-import React from 'react';
 import { LanguagesArray } from '../data/data';
 import { Language } from '../types/types';
 

@@ -1,5 +1,12 @@
-import wp from '../assets/wp.png';
 import { mensajeWp } from './mensajeWp';
+
+export const ProfileDescription: string = 'Hola, soy un apasionado de la tecnología, la música y los videojuegos, estudio programación y hago proyectos como desarrollador Frontend con: Javascript, HTML y CSS, React - Redux...'
+
+export const sections = [
+    { id: 'lang', label: 'Tecnologías' },
+    { id: 'projects', label: 'Proyectos' },
+    { id: 'contact', label: 'Contacto' },
+];
 
 export const LanguagesArray = [
     {
@@ -127,6 +134,6 @@ export const contactArray = [
     {
         name: "Whastapp",
         url: `https://wa.me/+573006300557?text=${mensajeWp}`,
-        img: wp
+        img: "https://res.cloudinary.com/dcyn2bjb9/image/upload/v1679327952/samples/redes/wp_rsn5op.png"
     }
 ]

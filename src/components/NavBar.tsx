@@ -1,22 +1,19 @@
 import { Dispatch, FC, SetStateAction } from 'react';
+import { sections } from '../data/data';
+
 
 type NavBarProps = {
 	setContent: Dispatch<SetStateAction<string>>;
 }
 
 const NavBar: FC<NavBarProps> = ({ setContent }) => {
-	const sections = [
-		{ id: 'lang', label: 'Tecnologías' },
-		{ id: 'projects', label: 'Proyectos' },
-		{ id: 'contact', label: 'Contacto' },
-	];
 
 	const handleCont = (name: string) => {
 		setContent(name);
-		sections.forEach((section) => {
-			const element = document.getElementById(section.id);
+		sections.forEach(({id}) => {
+			const element = document.getElementById(id);
 			if (element) {
-				element.classList.toggle('active', section.id === name);
+				element.classList.toggle('active', id === name);
 			}
 		});
 	};
@@ -24,14 +21,14 @@ const NavBar: FC<NavBarProps> = ({ setContent }) => {
 	return (
 		<section id='navbar'>
 			<div>
-				{sections.map((section) => (
+				{sections.map(({ id, label }) => (
 					<h4
-						key={section.id}
-						id={section.id}
-						className={section.id === 'projects' ? 'active' : ''}
-						onClick={() => handleCont(section.id)}
+						key={id}
+						id={id}
+						className={id === 'projects' ? 'active' : ''}
+						onClick={() => handleCont(id)}
 					>
-						{section.label}
+						{label}
 					</h4>
 				))}
 			</div>
