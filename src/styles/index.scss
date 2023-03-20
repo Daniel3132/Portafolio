@@ -63,9 +63,9 @@ img,
     display: none;
 }
 
-@import './intro';
-@import './content';
-@import './navbar';
-@import './languages';
-@import './projects';
-@import './contact';
+@import '../components/Contact/contact';
+@import '../components/Content/content';
+@import '../components/Intro/intro';
+@import '../components/Languages/languages';
+@import '../components/NavBar/navbar';
+@import '../components/Projects/projects';

@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Contact from './Contact'
-import Languages from './Languages'
-import NavBar from './NavBar'
-import Projects from './Projects'
+import Contact from '../Contact/Contact'
+import Languages from '../Languages/Languages'
+import NavBar from '../NavBar/NavBar'
+import Projects from '../Projects/Projects'
 
 
 const Content: React.FC = () => {

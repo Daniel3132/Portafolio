@@ -1,5 +1,5 @@
-import { LanguagesArray } from '../data/data';
-import { Language } from '../types/types';
+import { LanguagesArray } from "../../data/data";
+import { Language } from "../../types/types";
 
 
 const Languages: React.FC = () => {

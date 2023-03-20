@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { projectsArray } from '../data/data';
-import { Project } from '../types/types';
+import { projectsArray } from '../../data/data';
+import { Project } from '../../types/types';
 
 
 const Projects: React.FC = () => {

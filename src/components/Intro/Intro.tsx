@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import avatar from '../assets/avatar.png';
-import { ProfileDescription } from '../data/data';
+import avatar from '../../assets/avatar.png';
+import { ProfileDescription } from '../../data/data';
 
 
 const Intro: React.FC = () => {

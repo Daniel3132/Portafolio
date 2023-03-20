@@ -1,8 +1,7 @@
-import React from 'react'
-import Content from './components/Content'
-import Intro from './components/Intro'
+import Content from "./components/Content/Content"
+import Intro from "./components/Intro/Intro"
 
-const App = () => {
+const App: React.FC = () => {
 	return (
 		<>
 			<Intro />

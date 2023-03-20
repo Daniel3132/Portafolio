@@ -1,5 +1,5 @@
-import { contactArray } from '../data/data'
-import { ContactItem } from '../types/types'
+import { contactArray } from "../../data/data"
+import { ContactItem } from "../../types/types"
 
 
 const Contact: React.FC = () => {
