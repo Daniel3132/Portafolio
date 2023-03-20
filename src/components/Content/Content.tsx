@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
-import Contact from './Contact'
-import Languages from './Languages'
-import NavBar from './NavBar'
-import Projects from './Projects'
+import { useState } from 'react'
+import Contact from '../Contact/Contact'
+import Languages from '../Languages/Languages'
+import NavBar from '../NavBar/NavBar'
+import Projects from '../Projects/Projects'
 
-const Content = () => {
-    const [content, setContent] = useState('projects')
+
+const Content: React.FC = () => {
+    const [content, setContent] = useState<string>('projects')
     return (
         <section id='content'>
-            <NavBar content={content} setContent={setContent} />
+            <NavBar setContent={setContent} />
             <div className='contentCont'>
                 {
                     content === 'lang' ? <Languages />
