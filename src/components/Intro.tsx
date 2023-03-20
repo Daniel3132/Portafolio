@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import avatar from '../assets/avatar.png'
+import { useState } from 'react';
+import avatar from '../assets/avatar.png';
 
-const Intro = () => {
+const Intro: React.FC = () => {
 
     const [imagen, setImagen] = useState(true);
 

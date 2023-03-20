@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { projectsArray } from '../data/data';
+import { Project } from '../types/types';
 
-const Projects = () => {
+const Projects: React.FC = () => {
 
-	const [visibleProjects, setVisibleProjects] = useState([]);
+	const [visibleProjects, setVisibleProjects] = useState<number[]>([]);
 
-	const handleCont = (id) => {
+	const handleCont = (id: number) => {
 		if (visibleProjects.includes(id)) {
 			setVisibleProjects(visibleProjects.filter(p => p !== id));
 		} else {
@@ -16,7 +17,7 @@ const Projects = () => {
 	return (
 		<section id='projectsSection'>
 			<div className='projectsCont'>
-				{projectsArray.map((p, index) =>
+				{projectsArray.map((p: Project, index: number) =>
 					<div className='pCont' key={index} >
 						<h4>{p.name}</h4>
 						<div className='content'>

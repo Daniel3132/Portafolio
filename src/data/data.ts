@@ -1,4 +1,4 @@
-import wp from '../assets/wp.png'
+import wp from '../assets/wp.png';
 import { mensajeWp } from './mensajeWp';
 
 export const LanguagesArray = [

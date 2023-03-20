@@ -1,17 +1,23 @@
-import React from 'react';
+import { Dispatch, FC, SetStateAction } from 'react';
 
-const NavBar = ({ setContent }) => {
+type NavBarProps = {
+	setContent: Dispatch<SetStateAction<string>>;
+}
+
+const NavBar: FC<NavBarProps> = ({ setContent }) => {
 	const sections = [
 		{ id: 'lang', label: 'Tecnologías' },
 		{ id: 'projects', label: 'Proyectos' },
 		{ id: 'contact', label: 'Contacto' },
 	];
 
-	const handleCont = (name) => {
+	const handleCont = (name: string) => {
 		setContent(name);
 		sections.forEach((section) => {
 			const element = document.getElementById(section.id);
-			element.classList.toggle('active', section.id === name);
+			if (element) {
+				element.classList.toggle('active', section.id === name);
+			}
 		});
 	};
 
