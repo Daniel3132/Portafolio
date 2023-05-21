@@ -13,6 +13,6 @@ export type Project = {
     name: string;
     description: string;
     photo: string;
-    repositorie: string;
+    repository: string;
     deployment: string;
 };

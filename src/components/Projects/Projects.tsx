@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
 						</div>
 						<div>
 							<a
-								href={p.repositorie}
+								href={p.repository}
 								target="_blank"
 								rel='noreferrer'>
 								GitHub
