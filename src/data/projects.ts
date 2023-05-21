@@ -5,8 +5,24 @@ import dailyBits from "../assets/projects/dailyBits.png"
 import netnet from "../assets/projects/netnet.png"
 import pokedex from "../assets/projects/pokedex.png"
 import tiendita from "../assets/projects/tiendita.png"
+import yogaFood from "../assets/projects/yogaFood.png"
+import weather from "../assets/projects/weather.png"
 
 export const projectsArray = [
+  {
+    name: "Amazonas",
+    description: "A copy of amazon made on ReactJS, CRUD on redux with firebase. A shopping car where you can add products , delete or modify to make a payment",
+    photo: amazonas,
+    repository: "https://github.com/Daniel3132/amazonas",
+    deployment: "https://amazonas-daniel3132.vercel.app",
+  },
+  {
+    name: "Yoga Food",
+    description: "On the Yoga Food landing page, there are download and play buttons. Clicking on 'Download' takes you to a user list, while selecting 'Play' opens the mobile app. Within the app, users can explore various meal options, including separate menus for lunch and breakfast.",
+    photo: yogaFood,
+    repository: "https://github.com/Daniel3132/Yoga-Food-Monkey",
+    deployment: "https://yoga-food-monkey.vercel.app/",
+  },
   {
     name: "Pokedex on React",
     description: "A pokedex made with ReactJS where you can see the List of all Pokemon and some of their info. You will have to register (can login with Google or Facebook) to catch pokemons, give them a nickname and see a pokemon list on your profile screen.",
@@ -15,11 +31,11 @@ export const projectsArray = [
     deployment: "https://pokedex-react-daniel3132.vercel.app",
   },
   {
-    name: "Amazonas",
-    description: "A copy of amazon made on ReactJS, CRUD on redux with firebase. A shopping car where you can add products , delete or modify to make a payment",
-    photo: amazonas,
-    repository: "https://github.com/Daniel3132/amazonas",
-    deployment: "https://amazonas-daniel3132.vercel.app",
+    name: "Wheater App",
+    description: "This is a React weather app that displays current weather information for a selected city using the OpenWeatherMap API. The app includes a search bar, weather table, loading spinner, and error modal. The main component is a functional App written in JavaScript and styled with SCSS.",
+    photo: weather,
+    repository: "https://github.com/Daniel3132/weather-React-Context",
+    deployment: "https://weather-react-context-pi.vercel.app",
   },
   {
     name: "Bookmark",
@@ -55,5 +71,5 @@ export const projectsArray = [
     photo: netnet,
     repository: "https://github.com/Daniel3132/Netnet",
     deployment: "https://netnet.vercel.app/",
-  },
+  }
 ];
