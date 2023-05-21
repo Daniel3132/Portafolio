@@ -1,4 +1,4 @@
-import { contactArray } from "../../data/data"
+import { contactArray } from "../../data/contact/contact"
 import { ContactItem } from "../../types/types"
 
 

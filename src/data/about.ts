@@ -1,0 +1,1 @@
+export const ProfileDescription: string = 'Hola, soy un apasionado de la tecnología, la música y los videojuegos, estudio programación y hago proyectos como desarrollador Frontend con: Javascript, HTML y CSS, React - Redux...'

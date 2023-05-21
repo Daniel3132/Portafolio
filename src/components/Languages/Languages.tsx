@@ -1,4 +1,4 @@
-import { LanguagesArray } from "../../data/data";
+import { LanguagesArray } from "../../data/techStack";
 import { Language } from "../../types/types";
 
 

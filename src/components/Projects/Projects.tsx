@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import { projectsArray } from '../../data/data';
 import { Project } from '../../types/types';
+import { projectsArray } from '../../data/projects';
 
 
 const Projects: React.FC = () => {
-
 	const [visibleProjects, setVisibleProjects] = useState<number[]>([]);
 
 	const handleCont = (id: number) => {

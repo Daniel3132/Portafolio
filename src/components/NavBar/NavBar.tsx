@@ -1,5 +1,5 @@
 import { Dispatch, FC, SetStateAction } from 'react';
-import { sections } from '../../data/data';
+import { sections } from '../../data/sections';
 
 
 type NavBarProps = {
